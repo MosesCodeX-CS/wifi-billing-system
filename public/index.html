@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bellamy Hotspot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="/hotspot/public/styles.css">
+</head>
+<body>
+  <header class="header-bar">
+    <div class="header-title">FREE WIFI — Join Now (KES 10)</div>
+    <nav class="header-actions">
+      <button class="theme-switch" data-theme="light">Light</button>
+      <button class="theme-switch active" data-theme="vivid">Vivid</button>
+    </nav>
+  </header>
+
+  <main class="site-wrap">
+    <section class="hero">
+      <div class="hero-icon"><i class="fas fa-signal"></i></div>
+      <h2 class="hero-title">Bellamy Hotspot</h2>
+      <p class="hero-sub">Reliable connection • Simple plans</p>
+      <p class="contact">Help: <a href="tel:0724228479">0724 228 479</a></p>
+    </section>
+
+    <section class="offers-card">
+      <div id="planList" class="plan-list">
+        <!-- Plans will be injected here -->
+      </div>
+
+      <aside class="redeem-panel">
+        <label for="voucherCode" class="redeem-label">Have a voucher?</label>
+        <div class="redeem-row">
+          <input id="voucherCode" class="redeem-input" placeholder="Paste voucher here" />
+          <button id="redeemVoucher" class="redeem-btn">Redeem</button>
+        </div>
+        <div id="voucherNotice" class="redeem-note"></div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
